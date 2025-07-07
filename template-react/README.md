@@ -12,3 +12,27 @@ Este es un template base para proyectos en React que incluye todo lo necesario p
 🧩 Dashboard base con diseño limpio y responsivo
 
 🌙 Soporte para modo oscuro
+
+## 🛠️ Instrucciones para usar este template
+
+# 1. Crear una nueva carpeta y clona solo "template-react" del repositorio
+git init
+git remote add origin https://github.com/Laime27/templates.git
+git config core.sparseCheckout true
+git sparse-checkout init
+git sparse-checkout set template-react
+git pull origin main
+
+# 2. Mover el contenido de template-react a la raíz
+xcopy template-react\* . /E /H /K
+
+# 3. Eliminar la carpeta template-react
+rmdir /s /q template-react  
+o con 
+rm -r -fo template-react
+
+# 4. Cambiar el "name" en package.json y package-lock.json por el nombre del nuevo proyecto
+
+# 5. Instalar dependencias
+npm install
+
