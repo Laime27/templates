@@ -16,6 +16,7 @@ Este es un template base para proyectos en React que incluye todo lo necesario p
 ## 🛠️ Instrucciones para usar este template
 
 1. Crear una nueva carpeta y clona solo "template-react" del repositorio
+```bash
 git init
 git remote add origin https://github.com/Laime27/templates.git
 git config core.sparseCheckout true
@@ -23,16 +24,16 @@ git sparse-checkout init
 git sparse-checkout set template-react
 git pull origin main
 
-2. Mover el contenido de template-react a la raíz
+3. Mover el contenido de template-react a la raíz
 xcopy template-react\* . /E /H /K
 
-3. Eliminar la carpeta template-react
+4. Eliminar la carpeta template-react
 rmdir /s /q template-react  
 o con 
 rm -r -fo template-react
 
-4. Cambiar el "name" en package.json y package-lock.json por el nombre del nuevo proyecto
+5. Cambiar el "name" en package.json y package-lock.json por el nombre del nuevo proyecto
 
-5. Instalar dependencias
+6. Instalar dependencias
 npm install
 
