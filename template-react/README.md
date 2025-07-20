@@ -7,6 +7,8 @@ Este es un template base para proyectos en React que incluye todo lo necesario p
 
 ✅ sonner – sistema de notificaciones moderno
 
+🔧 lib/axiosConfig.ts: Configura la instancia de Axios con baseURL, headers y token automático desde localStorage.
+
 🧩 Dashboard base con diseño limpio y responsivo
 
 🌙 Soporte para modo oscuro
