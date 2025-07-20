@@ -1,13 +1,11 @@
-Este es un template base para proyectos en React que incluye todo lo necesario para comenzar con una interfaz moderna, rutas definidas y componentes reutilizables.
+Este es un template base para proyectos en React que incluye todo lo necesario para comenzar.
 
-🚀 Características incluidas
-✅ React y React DOM configurados
+📦 Librerías clave instaladas
+✅ axios – para consumir APIs fácilmente
 
-🎨 ShadCN/UI instalado y listo para usar (@shadcn/ui)
+✅ react-router-dom – para navegación entre páginas
 
-📁 Estructura de carpetas organizada (components, pages, routes)
-
-🧭 Una ruta de ejemplo ya definida
+✅ sonner – sistema de notificaciones moderno
 
 🧩 Dashboard base con diseño limpio y responsivo
 
