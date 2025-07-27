@@ -24,11 +24,11 @@ git sparse-checkout init
 git sparse-checkout set template-react
 git pull origin main
 ```
-3. Mover el contenido de template-react a la raíz
+2. Mover el contenido de template-react a la raíz
 ```bash
 xcopy template-react\* . /E /H /K
 ```
-4. Eliminar la carpeta template-react
+3. Eliminar la carpeta template-react
 ```bash
 rmdir /s /q template-react
 ```
@@ -36,9 +36,9 @@ o con
 ```bash
 rm -r -fo template-react
 ```
-5. Cambiar el "name" en package.json y package-lock.json por el nombre del nuevo proyecto
+4. Cambiar el "name" en package.json y package-lock.json por el nombre del nuevo proyecto
 
-6. Instalar dependencias
+5. Instalar dependencias
 ```bash
 npm install
 ```
